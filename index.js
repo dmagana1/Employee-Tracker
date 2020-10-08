@@ -9,13 +9,13 @@ const viewOptions = [
 ];
 
 const employeeOptions = [
-    "John Stamos",
-    "Mary Walters",
-    "George Washington",
-    "Meghan Kelly",
-    "Tom Hanks",
-    "Dolly Parton",
-    "Oprah Winfrey",
+    "Mickey Mouse",
+    "Peter Pan",
+    "Anna Frozen",
+    "Dory Fish",
+    "Harry Potter",
+    "Daisy Duck",
+    "Walt Disney",
     "exit"
 ];
 
@@ -33,7 +33,7 @@ function runSearch() {
         .prompt({
             name: "action",
             type: "list",
-            message: "What would you like to do?",
+            message: "Please choose one of the Following Actions",
             choices: viewOptions
         })
         .then(function (answer) {
@@ -102,7 +102,7 @@ const updateEmployee = () => {
             .prompt({
                 name: "action",
                 type: "list",
-                message: "Which employee do you want to update?",
+                message: "Please Choose Which Employee You want to Update",
                 choices: employeeOptions
             })
            
