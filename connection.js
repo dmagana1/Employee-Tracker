@@ -5,7 +5,7 @@ var connection = mysql.createConnection({
     port: 3306,
     user: "root",
     password: "PW123",
-    database: "employeetracker"
+    database: "employee_tracker"
 });
 
 connection.connect(function (err) {
@@ -13,4 +13,4 @@ connection.connect(function (err) {
     console.log("connected as id " + connection.threadId);
 });
 
-module.exports = connection
+module.exports = connection;
