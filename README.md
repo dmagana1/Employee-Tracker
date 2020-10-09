@@ -8,7 +8,7 @@ So I ran into a snag. I am not sure why my program is not working, I keep gettin
 
 
 ## Pictures 
-![alt text](pic/error1.jpg)
+![alt text](pic/error1.JPG)
 
 ![alt text](Picpic2.JPG)
 
