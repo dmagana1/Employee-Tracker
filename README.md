@@ -8,14 +8,14 @@ So I ran into a snag. I am not sure why my program is not working, I keep gettin
 
 
 ## Pictures 
-### This is the error I keep getting everytime I ran my code. 
+#### This is the error I keep getting everytime I ran my code. 
 
 ![alt text](pic/error1.JPG)
 
-### This is when I ran Node index.js into the command line. It would populate the question, but it would not allow the user to choose any of the options. 
+#### This is when I ran Node index.js into the command line. It would populate the question, but it would not allow the user to choose any of the options. 
 
 ![alt text](pic/pic2.JPG)
 
-### This is a picture of the table I create in Mysql Workbench 
+#### This is a picture of the table created in Mysql Workbench 
 
 ![alt text](pic/mysql1.JPG)
