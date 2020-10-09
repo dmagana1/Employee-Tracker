@@ -1,5 +1,6 @@
 var inquirer = require("inquirer");
 var connection = require('./connection');
+
 const viewOptions = [
     "View Departments",
     "View Roles",

@@ -52,11 +52,12 @@ INSERT into role (title, salary, department_id) VALUES ("Manager", 65000, 5);
 
 select * from role;
 
-INSERT into employee (first_name, last_name, role_id) values ("John", "Stamos", 3); 
-INSERT into employee (first_name, last_name, role_id) values ("Jim", "Baker", 4);
-INSERT into employee (first_name, last_name, role_id) values ("George", "Washington", 5);
-INSERT into employee (first_name, last_name, role_id) values ("Meghan", "Kelly", 6);
-INSERT into employee (first_name, last_name, role_id) values ("Tom", "Hanks", 7);
-INSERT into employee (first_name, last_name, role_id) values ("Dolly", "Parton", 8);
+INSERT into employee (first_name, last_name, role_id) values ("Mickey", "Mouse", 3); 
+INSERT into employee (first_name, last_name, role_id) values ("Peter", "Pan", 4);
+INSERT into employee (first_name, last_name, role_id) values ("Anna", "Frozen", 5);
+INSERT into employee (first_name, last_name, role_id) values ("Dory", "Fish", 6);
+INSERT into employee (first_name, last_name, role_id) values ("Harry", "Potter", 7);
+INSERT into employee (first_name, last_name, role_id) values ("Daisy", "Duck", 8);
 
 select * from employee;
+

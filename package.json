@@ -1,26 +1,30 @@
-  {
-    "name": "employee-tracker",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "dependencies": {
-      "console.table": "^0.10.0",
-      "inquirer": "^7.0.1",
-      "mysql": "^2.17.1"
-    },
-    "devDependencies": {},
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "## Description This app was created to be used in the command line as a way to update, create, and delete employees portfolios.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "nodeman index.js"
+  },
+  "keywords": [],
+  "author": "Diane M",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^6.5.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dmagana1/Employee-tracker.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dmagana1/Employee-tracker/issues"
   },
-  "homepage": "https://github.com/dmagana1/Employee-tracker/blob/main/README.md"
+  "homepage": "https://github.com/dmagana1/Employee-tracker#readme"
 }
