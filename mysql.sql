@@ -35,20 +35,20 @@ select * from employee;
 select * from role;
 select * from department;
 
-INSERT into department (name) VALUES ("Sales");
-INSERT into department (name) VALUES ("Engineering");
+INSERT into department (name) VALUES ("Web Developer");
+INSERT into department (name) VALUES ("Engineer");
+INSERT into department (name) VALUES ("CEO");
+INSERT into department (name) VALUES ("Design");
 INSERT into department (name) VALUES ("Finance");
-INSERT into department (name) VALUES ("Legal");
-INSERT into department (name) VALUES ("Manager");
 
 select * from department;
 
-INSERT into role (title, salary, department_id) VALUES ("Sales Lead", 45000, 1);
-INSERT into role (title, salary, department_id) VALUES ("Salesperson", 35000, 1);
-INSERT into role (title, salary, department_id) VALUES ("Lead Engineer", 43000, 2);
-INSERT into role (title, salary, department_id) VALUES ("Accountant", 50000, 3);
-INSERT into role (title, salary, department_id) VALUES ("Legal", 50000, 4);
-INSERT into role (title, salary, department_id) VALUES ("Manager", 65000, 5);
+INSERT into role (title, salary, department_id) VALUES ("Developer I", 145000, 1);
+INSERT into role (title, salary, department_id) VALUES ("Lead Developer", 235000, 1);
+INSERT into role (title, salary, department_id) VALUES ("Lead Engineer", 93000, 2);
+INSERT into role (title, salary, department_id) VALUES ("Owner", 1005000, 3);
+INSERT into role (title, salary, department_id) VALUES ("Art Director", 165000, 4);
+INSERT into role (title, salary, department_id) VALUES ("Controller", 265000, 5);
 
 select * from role;
 
